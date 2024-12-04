@@ -12,6 +12,8 @@
 3. Улучшена читаемость и декларативность.
 
 
+# Код тестировался в intellij IDEA
+
 
 object StringProcessor {
   // Переписали функцию в функциональном стиле
@@ -33,3 +35,5 @@ object StringProcessor {
     println(s"Processed strings: $processedStrings")
   }
 }
+
+Processed strings: List(APPLE, BANANA, ELEPHANT)
